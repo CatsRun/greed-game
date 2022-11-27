@@ -52,7 +52,7 @@ def main():
     cast.add_actor("robots", robot)
 
     for n in range(DEFAULT_ARTIFACTS):
-        text = random.choice(['*', 'O']) # '*' is gem. O is rock
+        text = random.choice(['*', 'O']) # '*' is gem. 'O' is rock
 
         x = random.randint(1, COLS - 1)
         y = random.randint(1, ROWS - 1)
@@ -70,7 +70,8 @@ def main():
         artifact.set_font_size(FONT_SIZE)
         artifact.set_color(color)
         artifact.set_position(position)        
-        artifact.set_velocity(Point(0, 1)) # x= 0 x axis stays , y = 1 y moves
+        # artifact.set_velocity(Point(0, 1)) # x= 0 x axis stays , y = 1 y moves ** This gives a static decent of all objects
+        artifact.set_velocity(Point(0, random.randint(1, 5))) #varies object decent from 1 - 5 randomly 
         cast.add_actor("artifacts", artifact)
     
     # start the game
