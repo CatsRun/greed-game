@@ -73,7 +73,7 @@ class Actor:
             max_y (int): The maximum y value.
         """
 
-        #resets cueser to 0. wraps the board. 
+        #resets curser to 0. wraps the board. 
         x = (self._position.get_x() + self._velocity.get_x()) % max_x
         y = (self._position.get_y() + self._velocity.get_y()) % max_y
         self._position = Point(x, y)

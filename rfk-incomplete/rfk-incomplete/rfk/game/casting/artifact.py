@@ -1,22 +1,16 @@
 from game.casting.actor import Actor
 
-# TODO: Implement the Artifact class here. Don't forget to inherit from Actor!
-
-
 class Artifact(Actor):
-    """ Add comment here*********
+    """Calculates points based on what object is gathered.
+
+    This class is child to Actor class.
+
+    Attributes:
+        _position
     """
     def __init__(self):
-        super().__init__()
-        # self._message = ''
-        self._position = 0
-
-    # def set_message(self, message):
-    #     self._message = message
-
-    # def get_message(self):
-    #     return self._message
-
+        super().__init__()        
+        
 
     #artifact calculate score based on what it is
     def calculate_points(self):

@@ -1,5 +1,5 @@
-# Robot Finds Kitten
-Simon Carless once described robotfindskitten as "less a game and more a way of life ... It's fun to wander around until you find a kitten, at which point you feel happy and can start again". I don't think I could have said it better myself!
+# Greed
+Greed is a simple and relaxing game. You are a #. Your job is to collect gems and avoid rocks as they fall. Collecting gems will raise your score, while collectinfg rock will lower it. Have fun!
 
 ## Getting Started
 ---
@@ -33,4 +33,4 @@ root                    (project root folder)
 
 ## Authors
 ---
-* # TODO: Add your name and email here
+* Angela Murray mangelas@byui.edu
